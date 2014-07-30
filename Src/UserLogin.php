@@ -21,6 +21,7 @@
 					return false;
 				}
 			}
+			
 			fclose($fin);
 			$this->SendError(self::LOGIN_ERROR, "Passwords do not match.");
 			return false;
@@ -39,6 +40,7 @@
 					return true;
 				}
 			}
+			
 			fclose($fin);
 			return false;
 		}
